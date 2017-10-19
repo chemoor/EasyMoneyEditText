@@ -18,7 +18,6 @@ import java.math.RoundingMode;
 import java.util.Currency;
 import java.util.Locale;
 
-import ma.s2m.egate.R;
 import static java.lang.Math.abs;
 /**
  * The EditText widget for support of money requirements like currency, number formatting, comma formatting etc.
@@ -35,7 +34,7 @@ import static java.lang.Math.abs;
   * @Updated by Youssef EL CARTOUBI (che.moor@gmail.com)
   * @version 2.0.0 10/02/2017
   */
-public class EasyMoneyEditText extends CustomEditText {
+public class EasyMoneyEditText extends EditText {
 
     private String _currencySymbol;
     private boolean _showCurrency;
